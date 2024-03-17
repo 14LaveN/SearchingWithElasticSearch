@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "SearchingWithElasticSearch.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/SearchingWithElasticSearch.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SearchingWithElasticSearch.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SearchingWithElasticSearch.Domain/1.0.0": {
+      "type": "project",
+      "path": "../SearchingWithElasticSearch.Domain/SearchingWithElasticSearch.Domain.csproj",
+      "msbuildProject": "../SearchingWithElasticSearch.Domain/SearchingWithElasticSearch.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "SearchingWithElasticSearch.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\ponom\\.nuget\\packages\\": {},
@@ -38,7 +57,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Domain\\SearchingWithElasticSearch.Domain.csproj": {
+              "projectPath": "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Domain\\SearchingWithElasticSearch.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

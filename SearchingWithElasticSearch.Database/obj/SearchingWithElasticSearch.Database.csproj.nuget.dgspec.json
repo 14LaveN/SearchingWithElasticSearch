@@ -4,6 +4,171 @@
     "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Database\\SearchingWithElasticSearch.Database.csproj": {}
   },
   "projects": {
+    "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Application\\SearchingWithElasticSearch.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Application\\SearchingWithElasticSearch.Application.csproj",
+        "projectName": "SearchingWithElasticSearch.Application",
+        "projectPath": "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Application\\SearchingWithElasticSearch.Application.csproj",
+        "packagesPath": "C:\\Users\\ponom\\.nuget\\packages\\",
+        "outputPath": "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ponom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Cache\\SearchingWithElasticSearch.Cache.csproj": {
+                "projectPath": "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Cache\\SearchingWithElasticSearch.Cache.csproj"
+              },
+              "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Domain\\SearchingWithElasticSearch.Domain.csproj": {
+                "projectPath": "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Domain\\SearchingWithElasticSearch.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.3.1, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerGen": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "prometheus-net.AspNetCore": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Cache\\SearchingWithElasticSearch.Cache.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Cache\\SearchingWithElasticSearch.Cache.csproj",
+        "projectName": "SearchingWithElasticSearch.Cache",
+        "projectPath": "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Cache\\SearchingWithElasticSearch.Cache.csproj",
+        "packagesPath": "C:\\Users\\ponom\\.nuget\\packages\\",
+        "outputPath": "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Cache\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ponom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Database\\SearchingWithElasticSearch.Database.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -12,6 +177,79 @@
         "projectPath": "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Database\\SearchingWithElasticSearch.Database.csproj",
         "packagesPath": "C:\\Users\\ponom\\.nuget\\packages\\",
         "outputPath": "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ponom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Application\\SearchingWithElasticSearch.Application.csproj": {
+                "projectPath": "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Application\\SearchingWithElasticSearch.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.Elasticsearch": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Domain\\SearchingWithElasticSearch.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Domain\\SearchingWithElasticSearch.Domain.csproj",
+        "projectName": "SearchingWithElasticSearch.Domain",
+        "projectPath": "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Domain\\SearchingWithElasticSearch.Domain.csproj",
+        "packagesPath": "C:\\Users\\ponom\\.nuget\\packages\\",
+        "outputPath": "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

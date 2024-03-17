@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bVwdtu/POUoN3V9tcPJqILA9mE3zaWWfDbVEtfOLzv5mYVcaE3Dm9604BKs62fbildQmyj2n/k1L0vJqW20I7g==",
+  "success": true,
+  "projectFilePath": "G:\\DotNetProjects\\SearchingWithElasticSearch\\SearchingWithElasticSearch.Cache\\SearchingWithElasticSearch.Cache.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ponom\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\8.0.0\\microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\ponom\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

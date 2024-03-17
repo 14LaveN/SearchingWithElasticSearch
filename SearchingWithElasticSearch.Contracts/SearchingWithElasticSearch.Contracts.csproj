@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\SearchingWithElasticSearch.Domain\SearchingWithElasticSearch.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
