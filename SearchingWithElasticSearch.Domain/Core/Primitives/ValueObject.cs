@@ -1,4 +1,4 @@
-﻿namespace SearchingWithElasticSearch.Domain.Common.Core.Primitives;
+﻿namespace SearchingWithElasticSearch.Domain.Core.Primitives;
 
 /// <summary>
 /// Represents the base class all value objects derive from.

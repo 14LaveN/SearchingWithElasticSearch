@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using SearchingWithElasticSearch.Application.ApiHelpers.Contracts;
-using SearchingWithElasticSearch.Domain.Common.Core.Primitives;
-using SearchingWithElasticSearch.Domain.Common.Core.Primitives.Result;
+using SearchingWithElasticSearch.Domain.Core.Primitives;
+using SearchingWithElasticSearch.Domain.Core.Primitives.Result;
 
 namespace SearchingWithElasticSearch.Application.ApiHelpers.Infrastructure;
 

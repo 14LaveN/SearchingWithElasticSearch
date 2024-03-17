@@ -1,6 +1,6 @@
 using SearchingWithElasticSearch.Application.Core.Abstractions.Messaging;
 using SearchingWithElasticSearch.Contracts.Searching.Search;
-using SearchingWithElasticSearch.Domain.Common.Core.Primitives.Maybe;
+using SearchingWithElasticSearch.Domain.Core.Primitives.Maybe;
 
 namespace SearchingWithElasticSearch.Api.Mediatr.Queries.SearchDocuments;
 

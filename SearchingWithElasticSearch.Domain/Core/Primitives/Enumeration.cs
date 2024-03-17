@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
-using SearchingWithElasticSearch.Domain.Common.Core.Primitives.Maybe;
+using SearchingWithElasticSearch.Domain.Core.Primitives.Maybe;
 
-namespace SearchingWithElasticSearch.Domain.Common.Core.Primitives;
+namespace SearchingWithElasticSearch.Domain.Core.Primitives;
 
 /// <summary>
 /// Represents an enumeration type.

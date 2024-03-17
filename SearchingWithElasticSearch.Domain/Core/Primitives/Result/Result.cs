@@ -1,4 +1,4 @@
-﻿namespace SearchingWithElasticSearch.Domain.Common.Core.Primitives.Result;
+﻿namespace SearchingWithElasticSearch.Domain.Core.Primitives.Result;
 
 /// <summary>
 /// Represents a result of some operation, with status information and possibly an error.

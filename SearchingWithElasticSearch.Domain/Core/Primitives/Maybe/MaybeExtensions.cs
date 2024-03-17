@@ -1,4 +1,4 @@
-﻿namespace SearchingWithElasticSearch.Domain.Common.Core.Primitives.Maybe;
+﻿namespace SearchingWithElasticSearch.Domain.Core.Primitives.Maybe;
 
 /// <summary>
 /// Contains extension methods for the maybe class.

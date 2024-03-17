@@ -1,5 +1,5 @@
-using SearchingWithElasticSearch.Domain.Common.Core.Primitives.Result;
-using SearchingWithElasticSearch.Domain.Common.Enumerations;
+using SearchingWithElasticSearch.Domain.Core.Primitives.Result;
+using SearchingWithElasticSearch.Domain.Enumerations;
 
 namespace SearchingWithElasticSearch.Application.ApiHelpers.Responses;
 

@@ -1,10 +1,10 @@
 using Nest;
 using SearchingWithElasticSearch.Application.Core.Settings;
 using SearchingWithElasticSearch.Database.Data.Interfaces;
-using SearchingWithElasticSearch.Domain.Common.Core.Primitives;
-using SearchingWithElasticSearch.Domain.Common.Core.Primitives.Maybe;
+using SearchingWithElasticSearch.Domain.Core.Primitives;
+using SearchingWithElasticSearch.Domain.Core.Primitives.Maybe;
 using SearchingWithElasticSearch.Domain.Entities;
-using Result = SearchingWithElasticSearch.Domain.Common.Core.Primitives.Result.Result;
+using Result = SearchingWithElasticSearch.Domain.Core.Primitives.Result.Result;
 
 namespace SearchingWithElasticSearch.Database.Data.Repository;
 

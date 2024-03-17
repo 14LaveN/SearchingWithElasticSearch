@@ -1,4 +1,4 @@
-namespace SearchingWithElasticSearch.Domain.Common.Enumerations;
+namespace SearchingWithElasticSearch.Domain.Enumerations;
 
 public enum StatusCode
 {

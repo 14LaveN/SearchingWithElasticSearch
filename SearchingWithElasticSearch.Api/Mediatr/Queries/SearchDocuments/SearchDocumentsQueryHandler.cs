@@ -2,8 +2,8 @@ using SearchingWithElasticSearch.Application.Core.Abstractions.Messaging;
 using SearchingWithElasticSearch.Contracts.Searching.Search;
 using SearchingWithElasticSearch.Database.Data.Interfaces;
 using SearchingWithElasticSearch.Domain.Common.Core.Exceptions;
-using SearchingWithElasticSearch.Domain.Common.Core.Primitives.Maybe;
 using SearchingWithElasticSearch.Domain.Core.Errors;
+using SearchingWithElasticSearch.Domain.Core.Primitives.Maybe;
 
 namespace SearchingWithElasticSearch.Api.Mediatr.Queries.SearchDocuments;
 

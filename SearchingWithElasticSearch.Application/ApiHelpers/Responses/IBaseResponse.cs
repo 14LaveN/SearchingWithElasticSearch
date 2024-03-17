@@ -1,4 +1,4 @@
-using SearchingWithElasticSearch.Domain.Common.Enumerations;
+using SearchingWithElasticSearch.Domain.Enumerations;
 
 namespace SearchingWithElasticSearch.Application.ApiHelpers.Responses;
 

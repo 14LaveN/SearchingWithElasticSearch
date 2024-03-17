@@ -1,5 +1,6 @@
 ﻿using SearchingWithElasticSearch.Domain.Common.Core.Primitives;
 using FluentValidation;
+using SearchingWithElasticSearch.Domain.Core.Primitives;
 
 namespace SearchingWithElasticSearch.Application.Core.Extensions;
 

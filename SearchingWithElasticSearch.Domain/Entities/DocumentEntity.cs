@@ -1,5 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 using SearchingWithElasticSearch.Domain.Common.Core.Primitives;
+using SearchingWithElasticSearch.Domain.Core.Primitives;
 using SearchingWithElasticSearch.Domain.Core.Utility;
 
 namespace SearchingWithElasticSearch.Domain.Entities;

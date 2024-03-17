@@ -1,6 +1,6 @@
 using System.Reflection.Metadata;
-using SearchingWithElasticSearch.Domain.Common.Core.Primitives.Maybe;
-using SearchingWithElasticSearch.Domain.Common.Core.Primitives.Result;
+using SearchingWithElasticSearch.Domain.Core.Primitives.Maybe;
+using SearchingWithElasticSearch.Domain.Core.Primitives.Result;
 using SearchingWithElasticSearch.Domain.Entities;
 
 namespace SearchingWithElasticSearch.Database.Data.Interfaces;

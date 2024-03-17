@@ -1,4 +1,6 @@
-﻿namespace SearchingWithElasticSearch.Domain.Common.Core.Primitives;
+﻿using SearchingWithElasticSearch.Domain.Common.Core.Primitives;
+
+namespace SearchingWithElasticSearch.Domain.Core.Primitives;
 
 /// <summary>
 /// Represents a concrete domain error.

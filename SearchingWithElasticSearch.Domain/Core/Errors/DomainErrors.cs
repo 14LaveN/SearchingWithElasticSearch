@@ -1,4 +1,5 @@
 ﻿using SearchingWithElasticSearch.Domain.Common.Core.Primitives;
+using SearchingWithElasticSearch.Domain.Core.Primitives;
 
 namespace SearchingWithElasticSearch.Domain.Core.Errors;
 

@@ -1,6 +1,6 @@
 ﻿using SearchingWithElasticSearch.Domain.Core.Utility;
 
-namespace SearchingWithElasticSearch.Domain.Common.Core.Primitives;
+namespace SearchingWithElasticSearch.Domain.Core.Primitives;
 
 /// <summary>
 /// Represents the base class that all entities derive from.

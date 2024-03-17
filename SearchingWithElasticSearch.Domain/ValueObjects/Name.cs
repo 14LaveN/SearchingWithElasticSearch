@@ -1,8 +1,8 @@
-using SearchingWithElasticSearch.Domain.Common.Core.Primitives;
-using SearchingWithElasticSearch.Domain.Common.Core.Primitives.Result;
 using SearchingWithElasticSearch.Domain.Core.Errors;
+using SearchingWithElasticSearch.Domain.Core.Primitives;
+using SearchingWithElasticSearch.Domain.Core.Primitives.Result;
 
-namespace SearchingWithElasticSearch.Domain.Common.ValueObjects;
+namespace SearchingWithElasticSearch.Domain.ValueObjects;
 
 /// <summary>
 /// Represents the name value object.
