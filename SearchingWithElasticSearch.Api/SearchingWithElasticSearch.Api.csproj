@@ -14,7 +14,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Mediatr\Commands\" />
       <Folder Include="Mediatr\Queries\" />
     </ItemGroup>
 
@@ -32,6 +31,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\SearchingWithElasticSearch.Application\SearchingWithElasticSearch.Application.csproj" />
+      <ProjectReference Include="..\SearchingWithElasticSearch.BackgroundTasks\SearchingWithElasticSearch.BackgroundTasks.csproj" />
       <ProjectReference Include="..\SearchingWithElasticSearch.Contracts\SearchingWithElasticSearch.Contracts.csproj" />
       <ProjectReference Include="..\SearchingWithElasticSearch.Database\SearchingWithElasticSearch.Database.csproj" />
     </ItemGroup>

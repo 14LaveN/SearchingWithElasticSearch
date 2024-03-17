@@ -9,6 +9,7 @@ using SearchingWithElasticSearch.Api.Common.DependencyInjection;
 using SearchingWithElasticSearch.Application;
 using SearchingWithElasticSearch.Application.ApiHelpers.Configurations;
 using SearchingWithElasticSearch.Application.ApiHelpers.Middlewares;
+using SearchingWithElasticSearch.BackgroundTasks;
 
 #region BuilderRegion
 
@@ -45,6 +46,8 @@ builder.Services.AddCaching();
 builder.Services.AddSwachbackleService(Assembly.GetExecutingAssembly());
 
 builder.Services.AddValidators();
+
+builder.Services.AddBackgroundTasks();
 
 //builder.Services.AddBackgroundTasks();
 

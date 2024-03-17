@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("SearchingWithElasticSearch.Tests")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("SearchingWithElasticSearch.BackgroundTasks")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bbb73b7aef4c27682543a39fc7e8302b4c01d4a")]
-[assembly: System.Reflection.AssemblyProductAttribute("SearchingWithElasticSearch.Tests")]
-[assembly: System.Reflection.AssemblyTitleAttribute("SearchingWithElasticSearch.Tests")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c59960b00236a1517ce7c69631559f35ef3621dc")]
+[assembly: System.Reflection.AssemblyProductAttribute("SearchingWithElasticSearch.BackgroundTasks")]
+[assembly: System.Reflection.AssemblyTitleAttribute("SearchingWithElasticSearch.BackgroundTasks")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.

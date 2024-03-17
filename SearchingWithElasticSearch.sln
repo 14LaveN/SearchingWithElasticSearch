@@ -24,6 +24,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingWithElasticSearch.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingWithElasticSearch.Cache", "SearchingWithElasticSearch.Cache\SearchingWithElasticSearch.Cache.csproj", "{2AB76B5F-AEAC-4307-9280-CD8833DD0C4D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BackgroundTasks", "BackgroundTasks", "{6452D2E7-74CB-483D-96FF-553024C69666}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SearchingWithElasticSearch.BackgroundTasks", "SearchingWithElasticSearch.BackgroundTasks\SearchingWithElasticSearch.BackgroundTasks.csproj", "{E0071CDE-3749-427D-8539-32C5DD6E62C0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +62,10 @@ Global
 		{2AB76B5F-AEAC-4307-9280-CD8833DD0C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AB76B5F-AEAC-4307-9280-CD8833DD0C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AB76B5F-AEAC-4307-9280-CD8833DD0C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0071CDE-3749-427D-8539-32C5DD6E62C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0071CDE-3749-427D-8539-32C5DD6E62C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0071CDE-3749-427D-8539-32C5DD6E62C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0071CDE-3749-427D-8539-32C5DD6E62C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B4808D6F-7DF2-44A9-882D-951B9A09F40E} = {C1BA6E57-4837-461F-8974-B2C595F5A15B}
@@ -67,5 +75,6 @@ Global
 		{BA4551E4-8D3C-4377-A439-E067B6542F4C} = {922D74FD-A81C-47B0-AE45-5FF54CB49876}
 		{F0A3ACA0-573E-4A9B-9E12-08484DBAE140} = {D4261118-7D93-4EE1-8C2B-89EFFA024E41}
 		{2AB76B5F-AEAC-4307-9280-CD8833DD0C4D} = {F841DCCA-4CC7-4590-A260-E1368C1627BC}
+		{E0071CDE-3749-427D-8539-32C5DD6E62C0} = {6452D2E7-74CB-483D-96FF-553024C69666}
 	EndGlobalSection
 EndGlobal
