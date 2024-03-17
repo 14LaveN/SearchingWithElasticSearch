@@ -1,5 +1,6 @@
 using MediatR;
 using MediatR.NotificationPublishers;
+using SearchingWithElasticSearch.Api.Mediatr.Queries.SearchDocuments;
 using SearchingWithElasticSearch.Application.Core.Behaviours;
 
 namespace SearchingWithElasticSearch.Api.Common.DependencyInjection;
@@ -25,8 +26,8 @@ internal static class DiMediator
         {
             x.RegisterServicesFromAssemblyContaining<Program>();
 
-            //TODO x.RegisterServicesFromAssemblies(typeof(CreateCounterCommand).Assembly,
-            //TODO     typeof(CreateCounterCommandHandler).Assembly);
+            x.RegisterServicesFromAssemblies(typeof(SearchDocumentsQuery).Assembly,
+                typeof(SearchDocumentsQueryHandler).Assembly);
             
             x.NotificationPublisher = new TaskWhenAllPublisher();
             x.NotificationPublisherType = typeof(TaskWhenAllPublisher);

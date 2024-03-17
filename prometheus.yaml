@@ -1,0 +1,15 @@
+global:
+  scrape_interval: 15s
+  scrape_timeout: 10s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'searching_with_elastic_search-api'
+    metrics_path: '/metrics'
+    scheme: 'https'
+    honor_timestamps: true
+    static_configs:
+      - targets: ['host.docker.internal:7059']
+
+  - job_name: 'prometheus'
+    static_configs:

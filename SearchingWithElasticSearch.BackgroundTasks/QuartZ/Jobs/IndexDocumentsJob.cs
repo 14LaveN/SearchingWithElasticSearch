@@ -27,8 +27,7 @@ public sealed class IndexDocumentsJob
     /// Initialize a new instance of the <see cref="IndexDocumentsJob"/>
     /// </summary>
     /// <param name="logger">The logger.</param>
-    public IndexDocumentsJob(
-        ILogger<IndexDocumentsJob> logger)
+    public IndexDocumentsJob(ILogger<IndexDocumentsJob> logger)
     {
         _logger = logger;
         

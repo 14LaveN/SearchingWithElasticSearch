@@ -46,7 +46,6 @@ public sealed class SearchDocumentsQueryHandler(
         catch (Exception exception)
         {
             logger.LogError(exception, $"[SearchDocumentsQueryHandler]: {exception.Message}");
-
             throw;
         }
     }

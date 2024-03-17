@@ -19,8 +19,6 @@ internal static class DiValidators
             throw new ArgumentNullException(nameof(services));
         }
         
-        //services.AddScoped<IValidator<CreateHistogramCommand>, CreateHistogramCommandValidator>();
-        
         return services;
     }
 }
